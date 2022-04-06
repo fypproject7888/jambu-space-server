@@ -107,9 +107,10 @@ router.get(
 );
 
 router.post(
-  "/",
+  "/user/:userType",
   asyncMiddleware(async (req, res) => {
-    const isCustomer = req.body.type === "customer";
+    const userType = req.params.userType;
+    const isCustomer = userType === "customer";
     if (isCustomer) {
       uploadCustomerImageMiddleware(req, res, async err => {
         if (err)

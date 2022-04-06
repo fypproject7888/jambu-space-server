@@ -4771,3 +4771,216 @@
     }
   ]
 }
+{
+  error: MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }
+      at Function.create (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\error.js:59:12)
+      at toError (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\utils.js:130:22)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\operations\common_functions.js:258:39
+      at handler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+      at handleOperationResult (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+      at MessageStream.messageHandler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection.js:308:5)
+      at MessageStream.emit (node:events:526:28)
+      at processIncomingData (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+      at MessageStream._write (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at TLSSocket.ondata (node:internal/streams/readable:754:22)
+      at TLSSocket.emit (node:events:526:28)
+      at addChunk (node:internal/streams/readable:315:12) {
+    driver: true,
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'test@gmail.com' }
+  },
+  level: 'error',
+  message: 'uncaughtException: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (node:events:526:28)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at TLSSocket.emit (node:events:526:28)\n' +
+    '    at addChunk (node:internal/streams/readable:315:12)',
+  stack: 'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (node:events:526:28)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at TLSSocket.emit (node:events:526:28)\n' +
+    '    at addChunk (node:internal/streams/readable:315:12)',
+  exception: true,
+  date: 'Wed Apr 06 2022 13:10:01 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 17924,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 56766464,
+      heapTotal: 27791360,
+      heapUsed: 25751328,
+      external: 19470020,
+      arrayBuffers: 18410653
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2029302 },
+  trace: [
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js',
+      function: 'Function.create',
+      line: 59,
+      method: 'create',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js',
+      function: 'toError',
+      line: 130,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js',
+      function: null,
+      line: 258,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js',
+      function: 'handler',
+      line: 961,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js',
+      function: null,
+      line: 352,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js',
+      function: 'handleOperationResult',
+      line: 567,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'MessageStream.messageHandler',
+      line: 308,
+      method: 'messageHandler',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 526,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 42,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 389,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'MessageStream.Writable.write',
+      line: 334,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'TLSSocket.ondata',
+      line: 754,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'TLSSocket.emit',
+      line: 526,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'addChunk',
+      line: 315,
+      method: null,
+      native: false
+    }
+  ]
+}
