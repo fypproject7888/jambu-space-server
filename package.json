@@ -4,12 +4,11 @@
   "description": "Jambu Space Server",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start ecosystem.config.js --env production",
+    "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm start --prefix client",
-    "socket": "npm start --prefix socket",
     "dev": "concurrently \"npm run server \" \"npm run client\"",
-    "prebuild": "npm audit fix && npm install pm2 -g"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=fasle npm install --prefix client && npm run build --prefix client"
   },
   "author": "Muhammad Ibtesam Arshad",
   "license": "ISC",
