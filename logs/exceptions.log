@@ -1,0 +1,4773 @@
+{
+  error: /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:38
+  const Comment, { validateComment } = require("../../models/sections/blog/commentModel");
+        ^^^^^^^
+  
+  SyntaxError: Missing initializer in const declaration
+      at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+      at Module._compile (internal/modules/cjs/loader.js:1049:27)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: 'uncaughtException: Missing initializer in const declaration\n' +
+    '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:38\n' +
+    'const Comment, { validateComment } = require("../../models/sections/blog/commentModel");\n' +
+    '      ^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:38\n' +
+    'const Comment, { validateComment } = require("../../models/sections/blog/commentModel");\n' +
+    '      ^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Wed Nov 17 2021 13:19:42 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 12516,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 83582976,
+      heapTotal: 58097664,
+      heapUsed: 32346552,
+      external: 20823078,
+      arrayBuffers: 19218503
+    }
+  },
+  os: { loadavg: [ 0.59, 0.74, 0.9 ], uptime: 8504.14 },
+  trace: [
+    {
+      column: 16,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'wrapSafe',
+      line: 1001,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1049,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: validateId is not defined
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:271:3)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: 'uncaughtException: validateId is not defined\n' +
+    'ReferenceError: validateId is not defined\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:271:3)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: 'ReferenceError: validateId is not defined\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:271:3)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Wed Nov 17 2021 13:20:34 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 12665,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 85176320,
+      heapTotal: 58359808,
+      heapUsed: 34513672,
+      external: 21134663,
+      arrayBuffers: 19519538
+    }
+  },
+  os: { loadavg: [ 1.07, 0.85, 0.93 ], uptime: 8556.27 },
+  trace: [
+    {
+      column: 3,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js',
+      function: null,
+      line: 271,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../../models/sections/blog/replyModel'
+  Require stack:
+  - /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js
+  - /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js
+  - /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js:14:15)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:14:14)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../models/sections/blog/replyModel'\n" +
+    'Require stack:\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js\n' +
+    "Error: Cannot find module '../../models/sections/blog/replyModel'\n" +
+    'Require stack:\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js:14:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:14:14)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)',
+  stack: "Error: Cannot find module '../../models/sections/blog/replyModel'\n" +
+    'Require stack:\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js\n' +
+    '- /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:746:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js:14:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:14:14)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)',
+  exception: true,
+  date: 'Wed Nov 17 2021 18:22:31 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 26176,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 81670144,
+      heapTotal: 58097664,
+      heapUsed: 31096888,
+      external: 20821273,
+      arrayBuffers: 19216698
+    }
+  },
+  os: { loadavg: [ 1.25, 1.18, 1.14 ], uptime: 26672.94 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 902,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 746,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js',
+      function: null,
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      function: null,
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:225
+      res.json({ serviceDetails:singleService serviceDetailSections });
+                                              ^^^^^^^^^^^^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier
+      at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+      at Module._compile (internal/modules/cjs/loader.js:1049:27)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: 'uncaughtException: Unexpected identifier\n' +
+    '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:225\n' +
+    '    res.json({ serviceDetails:singleService serviceDetailSections });\n' +
+    '                                            ^^^^^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Unexpected identifier\n' +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:225\n' +
+    '    res.json({ serviceDetails:singleService serviceDetailSections });\n' +
+    '                                            ^^^^^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Unexpected identifier\n' +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Wed Dec 08 2021 20:00:15 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 37492,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 81997824,
+      heapTotal: 57835520,
+      heapUsed: 32509944,
+      external: 20812902,
+      arrayBuffers: 19208327
+    }
+  },
+  os: { loadavg: [ 1.78, 1.23, 1.25 ], uptime: 32640.44 },
+  trace: [
+    {
+      column: 16,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'wrapSafe',
+      line: 1001,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1049,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/metaDataRoute.js:5
+  const MetaData, { validateMetaData } = require("../../models/MetaData");
+        ^^^^^^^^
+  
+  SyntaxError: Missing initializer in const declaration
+      at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+      at Module._compile (internal/modules/cjs/loader.js:1049:27)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:20:18)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: 'uncaughtException: Missing initializer in const declaration\n' +
+    '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/metaDataRoute.js:5\n' +
+    'const MetaData, { validateMetaData } = require("../../models/MetaData");\n' +
+    '      ^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:20:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/metaDataRoute.js:5\n' +
+    'const MetaData, { validateMetaData } = require("../../models/MetaData");\n' +
+    '      ^^^^^^^^\n' +
+    '\n' +
+    'SyntaxError: Missing initializer in const declaration\n' +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:20:18)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Wed Jan 26 2022 18:11:32 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 25150,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 85692416,
+      heapTotal: 58359808,
+      heapUsed: 34932000,
+      external: 21069563,
+      arrayBuffers: 19454438
+    }
+  },
+  os: { loadavg: [ 1.94, 1.61, 1.12 ], uptime: 22388.63 },
+  trace: [
+    {
+      column: 16,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'wrapSafe',
+      line: 1001,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1049,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      function: null,
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:307
+        if (meta) blog.meta = ...meta.toJSON();
+                              ^^^
+  
+  SyntaxError: Unexpected token '...'
+      at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+      at Module._compile (internal/modules/cjs/loader.js:1049:27)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+      at Module.load (internal/modules/cjs/loader.js:950:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+      at Module.require (internal/modules/cjs/loader.js:974:19)
+      at require (internal/modules/cjs/helpers.js:93:18)
+      at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1085:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token '...'\n" +
+    '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:307\n' +
+    '      if (meta) blog.meta = ...meta.toJSON();\n' +
+    '                            ^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '...'\n" +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  stack: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/websiteData.js:307\n' +
+    '      if (meta) blog.meta = ...meta.toJSON();\n' +
+    '                            ^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token '...'\n" +
+    '    at wrapSafe (internal/modules/cjs/loader.js:1001:16)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1049:27)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js:18:21)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:950:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:790:12)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:974:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:93:18)\n' +
+    '    at Object.<anonymous> (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1085:14)',
+  exception: true,
+  date: 'Wed Feb 09 2022 15:32:50 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 40451,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 83996672,
+      heapTotal: 58097664,
+      heapUsed: 32488448,
+      external: 20864900,
+      arrayBuffers: 19260325
+    }
+  },
+  os: { loadavg: [ 1.86, 1.73, 1.65 ], uptime: 14917.52 },
+  trace: [
+    {
+      column: 16,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'wrapSafe',
+      line: 1001,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1049,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/startup/routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 950,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 790,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 974,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 93,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1085,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at new NodeError (internal/errors.js:322:7)
+      at ServerResponse.setHeader (_http_outgoing.js:561:11)
+      at ServerResponse.header (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:771:10)
+      at ServerResponse.send (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:170:12)
+      at ServerResponse.json (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:267:15)
+      at /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js:425:11
+      at processTicksAndRejections (internal/process/task_queues.js:95:5) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  },
+  level: 'error',
+  message: 'uncaughtException: Cannot set headers after they are sent to the client\n' +
+    'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at new NodeError (internal/errors.js:322:7)\n' +
+    '    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n' +
+    '    at ServerResponse.header (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:771:10)\n' +
+    '    at ServerResponse.send (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:170:12)\n' +
+    '    at ServerResponse.json (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:267:15)\n' +
+    '    at /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js:425:11\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  stack: 'Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n' +
+    '    at new NodeError (internal/errors.js:322:7)\n' +
+    '    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n' +
+    '    at ServerResponse.header (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:771:10)\n' +
+    '    at ServerResponse.send (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:170:12)\n' +
+    '    at ServerResponse.json (/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js:267:15)\n' +
+    '    at /home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js:425:11\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)',
+  exception: true,
+  date: 'Thu Feb 10 2022 18:01:22 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 41132,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend',
+    execPath: '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+    version: 'v14.18.0',
+    argv: [
+      '/home/ibtesampc/.nvm/versions/node/v14.18.0/bin/node',
+      '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/index.js'
+    ],
+    memoryUsage: {
+      rss: 66371584,
+      heapTotal: 27127808,
+      heapUsed: 25243904,
+      external: 19938341,
+      arrayBuffers: 18306812
+    }
+  },
+  os: { loadavg: [ 1.38, 1.31, 1.21 ], uptime: 26605 },
+  trace: [
+    {
+      column: 7,
+      file: 'internal/errors.js',
+      function: 'new NodeError',
+      line: 322,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '_http_outgoing.js',
+      function: 'ServerResponse.setHeader',
+      line: 561,
+      method: 'setHeader',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js',
+      function: 'ServerResponse.header',
+      line: 771,
+      method: 'header',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 170,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/node_modules/express/lib/response.js',
+      function: 'ServerResponse.json',
+      line: 267,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/ibtesampc/Backend Projects/BeyondErisNew-Backend/routes/api/blogPageRoutes.js',
+      function: null,
+      line: 425,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 95,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: WebsiteData is not defined
+      at module.exports (D:\MyWorkSpace\NodeJSWorkSpace\BasicServerSetup\startup\routes.js:21:25)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\BasicServerSetup\index.js:18:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: WebsiteData is not defined\n' +
+    'ReferenceError: WebsiteData is not defined\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js:21:25)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js:18:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'ReferenceError: WebsiteData is not defined\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js:21:25)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js:18:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Tue Feb 22 2022 00:08:53 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 2624,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63127552,
+      heapTotal: 36642816,
+      heapUsed: 25347144,
+      external: 20157591,
+      arrayBuffers: 18595522
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 530098 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js',
+      function: 'module.exports',
+      line: 21,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: WebsiteData is not defined
+      at module.exports (D:\MyWorkSpace\NodeJSWorkSpace\BasicServerSetup\startup\routes.js:21:25)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\BasicServerSetup\index.js:18:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: WebsiteData is not defined\n' +
+    'ReferenceError: WebsiteData is not defined\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js:21:25)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js:18:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'ReferenceError: WebsiteData is not defined\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js:21:25)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js:18:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Tue Feb 22 2022 00:10:44 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 488,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63496192,
+      heapTotal: 36904960,
+      heapUsed: 24992488,
+      external: 20090171,
+      arrayBuffers: 18528102
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 530209 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js',
+      function: 'module.exports',
+      line: 21,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: WebsiteData is not defined
+      at module.exports (D:\MyWorkSpace\NodeJSWorkSpace\BasicServerSetup\startup\routes.js:21:25)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\BasicServerSetup\index.js:18:28)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+      at internal/main/run_main_module.js:17:47,
+  level: 'error',
+  message: 'uncaughtException: WebsiteData is not defined\n' +
+    'ReferenceError: WebsiteData is not defined\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js:21:25)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js:18:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  stack: 'ReferenceError: WebsiteData is not defined\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js:21:25)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js:18:28)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n' +
+    '    at internal/main/run_main_module.js:17:47',
+  exception: true,
+  date: 'Tue Feb 22 2022 00:12:20 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 1084,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63258624,
+      heapTotal: 36642816,
+      heapUsed: 25139344,
+      external: 20105827,
+      arrayBuffers: 18543758
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 530305 },
+  trace: [
+    {
+      column: 25,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\startup\\routes.js',
+      function: 'module.exports',
+      line: 21,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\BasicServerSetup\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 72,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'internal/main/run_main_module.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: validateCaseStudyBanner is not defined
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\seller.js:18:3)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js:10:22)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30),
+  level: 'error',
+  message: 'uncaughtException: validateCaseStudyBanner is not defined\n' +
+    'ReferenceError: validateCaseStudyBanner is not defined\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:18:3)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:10:22)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)',
+  stack: 'ReferenceError: validateCaseStudyBanner is not defined\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:18:3)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:10:22)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)',
+  exception: true,
+  date: 'Wed Feb 23 2022 00:58:16 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 14472,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67010560,
+      heapTotal: 38481920,
+      heapUsed: 27674176,
+      external: 20783444,
+      arrayBuffers: 19221375
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 619461 },
+  trace: [
+    {
+      column: 3,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: isEmpty is not defined
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\seller.js:106:7
+      at multerMiddleware (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\multer\lib\make-middleware.js:18:41)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\seller.js:98:5
+      at routeHandler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\middlewares\async.js:4:19)
+      at Layer.handle [as handle_request] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\layer.js:95:5)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:341:12)
+      at next (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:174:3)
+      at router (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:323:13)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:284:7,
+  level: 'error',
+  message: 'uncaughtException: isEmpty is not defined\n' +
+    'ReferenceError: isEmpty is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:106:7\n' +
+    '    at multerMiddleware (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:18:41)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:98:5\n' +
+    '    at routeHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\middlewares\\async.js:4:19)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:341:12)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:323:13)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:284:7',
+  stack: 'ReferenceError: isEmpty is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:106:7\n' +
+    '    at multerMiddleware (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:18:41)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:98:5\n' +
+    '    at routeHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\middlewares\\async.js:4:19)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:341:12)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:323:13)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:284:7',
+  exception: true,
+  date: 'Wed Feb 23 2022 01:01:14 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 10332,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 50696192,
+      heapTotal: 22454272,
+      heapUsed: 21396112,
+      external: 19873772,
+      arrayBuffers: 18294382
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 619639 },
+  trace: [
+    {
+      column: 7,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js',
+      function: null,
+      line: 106,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js',
+      function: 'multerMiddleware',
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js',
+      function: null,
+      line: 98,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\middlewares\\async.js',
+      function: 'routeHandler',
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 341,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 323,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: bcrypt is not defined
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\seller.js:113:20
+      at Immediate.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\multer\lib\make-middleware.js:53:37)
+      at processImmediate (internal/timers.js:463:21),
+  level: 'error',
+  message: 'uncaughtException: bcrypt is not defined\n' +
+    'ReferenceError: bcrypt is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:113:20\n' +
+    '    at Immediate.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:53:37)\n' +
+    '    at processImmediate (internal/timers.js:463:21)',
+  stack: 'ReferenceError: bcrypt is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:113:20\n' +
+    '    at Immediate.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:53:37)\n' +
+    '    at processImmediate (internal/timers.js:463:21)',
+  exception: true,
+  date: 'Wed Feb 23 2022 01:20:14 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 11192,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 49041408,
+      heapTotal: 22454272,
+      heapUsed: 20531448,
+      external: 19919865,
+      arrayBuffers: 18337084
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 620778 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js',
+      function: null,
+      line: 113,
+      method: null,
+      native: false
+    },
+    {
+      column: 37,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'internal/timers.js',
+      function: 'processImmediate',
+      line: 463,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: caseStudiesUrl is not defined
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\seller.js:132:16,
+  level: 'error',
+  message: 'uncaughtException: caseStudiesUrl is not defined\n' +
+    'ReferenceError: caseStudiesUrl is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:132:16',
+  stack: 'ReferenceError: caseStudiesUrl is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:132:16',
+  exception: true,
+  date: 'Wed Feb 23 2022 01:20:57 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 14980,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 66912256,
+      heapTotal: 57057280,
+      heapUsed: 21779704,
+      external: 19913917,
+      arrayBuffers: 18333878
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 620821 },
+  trace: [
+    {
+      column: 16,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js',
+      function: null,
+      line: 132,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: caseStudiesUrl is not defined
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\seller.js:81:18
+      at processTicksAndRejections (internal/process/task_queues.js:93:5),
+  level: 'error',
+  message: 'uncaughtException: caseStudiesUrl is not defined\n' +
+    'ReferenceError: caseStudiesUrl is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:81:18\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:93:5)',
+  stack: 'ReferenceError: caseStudiesUrl is not defined\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js:81:18\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:93:5)',
+  exception: true,
+  date: 'Wed Feb 23 2022 22:05:47 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 12764,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 48939008,
+      heapTotal: 22454272,
+      heapUsed: 20761496,
+      external: 19908601,
+      arrayBuffers: 18329211
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 695516 },
+  trace: [
+    {
+      column: 18,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\seller.js',
+      function: null,
+      line: 81,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/task_queues.js',
+      function: 'processTicksAndRejections',
+      line: 93,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../routes/api/seller'
+  Require stack:
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js:10:22)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../routes/api/seller'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    "Error: Cannot find module '../routes/api/seller'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:10:22)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  stack: "Error: Cannot find module '../routes/api/seller'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:10:22)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  exception: true,
+  date: 'Wed Feb 23 2022 22:10:37 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 13400,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63324160,
+      heapTotal: 36904960,
+      heapUsed: 24835800,
+      external: 20029968,
+      arrayBuffers: 18467899
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 695806 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 880,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 725,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../routes/api/seller'
+  Require stack:
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js:10:22)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../routes/api/seller'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    "Error: Cannot find module '../routes/api/seller'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:10:22)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  stack: "Error: Cannot find module '../routes/api/seller'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:10:22)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  exception: true,
+  date: 'Wed Feb 23 2022 22:10:42 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 10148,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 62980096,
+      heapTotal: 36642816,
+      heapUsed: 24774424,
+      external: 20027441,
+      arrayBuffers: 18465372
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 695811 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 880,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 725,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../routes/api/user'
+  Require stack:
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js:5:15)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../routes/api/user'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    "Error: Cannot find module '../routes/api/user'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:5:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  stack: "Error: Cannot find module '../routes/api/user'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:5:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  exception: true,
+  date: 'Wed Feb 23 2022 22:10:51 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 15020,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 60297216,
+      heapTotal: 34283520,
+      heapUsed: 20861424,
+      external: 20128255,
+      arrayBuffers: 18566186
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 695820 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 880,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 725,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../routes/api/user'
+  Require stack:
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js:5:15)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js:18:1)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../routes/api/user'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    "Error: Cannot find module '../routes/api/user'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:5:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  stack: "Error: Cannot find module '../routes/api/user'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:5:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:952:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:88:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js:18:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:928:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:769:14)',
+  exception: true,
+  date: 'Wed Feb 23 2022 22:10:58 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 7224,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 60239872,
+      heapTotal: 34807808,
+      heapUsed: 20142224,
+      external: 20058106,
+      arrayBuffers: 18496037
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 695827 },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 880,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 725,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 952,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1063,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1092,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 928,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 769,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: MongoError: E11000 duplicate key error collection: jambu-space.sellers index: username_1 dup key: { username: "test" }
+      at Function.create (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\error.js:59:12)
+      at toError (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\utils.js:130:22)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\operations\common_functions.js:258:39
+      at handler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+      at handleOperationResult (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+      at MessageStream.messageHandler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection.js:308:5)
+      at MessageStream.emit (events.js:315:20)
+      at processIncomingData (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+      at MessageStream._write (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+      at writeOrBuffer (internal/streams/writable.js:358:12)
+      at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+      at Socket.ondata (internal/streams/readable.js:719:22)
+      at Socket.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+      at readableAddChunk (internal/streams/readable.js:284:9) {
+    driver: true,
+    index: 0,
+    code: 11000,
+    keyPattern: { username: 1 },
+    keyValue: { username: 'test' }
+  },
+  level: 'error',
+  message: 'uncaughtException: E11000 duplicate key error collection: jambu-space.sellers index: username_1 dup key: { username: "test" }\n' +
+    'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: username_1 dup key: { username: "test" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (events.js:315:20)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:719:22)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at addChunk (internal/streams/readable.js:309:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:284:9)',
+  stack: 'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: username_1 dup key: { username: "test" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (events.js:315:20)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:719:22)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at addChunk (internal/streams/readable.js:309:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:284:9)',
+  exception: true,
+  date: 'Thu Feb 24 2022 00:03:29 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 5324,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 48463872,
+      heapTotal: 22454272,
+      heapUsed: 21131528,
+      external: 19871500,
+      arrayBuffers: 18292110
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 702578 },
+  trace: [
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js',
+      function: 'Function.create',
+      line: 59,
+      method: 'create',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js',
+      function: 'toError',
+      line: 130,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js',
+      function: null,
+      line: 258,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js',
+      function: 'handler',
+      line: 961,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js',
+      function: null,
+      line: 352,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js',
+      function: 'handleOperationResult',
+      line: 567,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'MessageStream.messageHandler',
+      line: 308,
+      method: 'messageHandler',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'MessageStream.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 42,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/streams/writable.js',
+      function: 'writeOrBuffer',
+      line: 358,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/streams/writable.js',
+      function: 'MessageStream.Writable.write',
+      line: 303,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/streams/readable.js',
+      function: 'Socket.ondata',
+      line: 719,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'Socket.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/streams/readable.js',
+      function: 'addChunk',
+      line: 309,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'internal/streams/readable.js',
+      function: 'readableAddChunk',
+      line: 284,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }
+      at Function.create (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\error.js:59:12)
+      at toError (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\utils.js:130:22)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\operations\common_functions.js:258:39
+      at handler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+      at handleOperationResult (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+      at MessageStream.messageHandler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection.js:308:5)
+      at MessageStream.emit (events.js:315:20)
+      at processIncomingData (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+      at MessageStream._write (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+      at writeOrBuffer (internal/streams/writable.js:358:12)
+      at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+      at Socket.ondata (internal/streams/readable.js:719:22)
+      at Socket.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+      at readableAddChunk (internal/streams/readable.js:284:9) {
+    driver: true,
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'test@gmail.com' }
+  },
+  level: 'error',
+  message: 'uncaughtException: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (events.js:315:20)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:719:22)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at addChunk (internal/streams/readable.js:309:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:284:9)',
+  stack: 'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (events.js:315:20)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (internal/streams/writable.js:358:12)\n' +
+    '    at MessageStream.Writable.write (internal/streams/writable.js:303:10)\n' +
+    '    at Socket.ondata (internal/streams/readable.js:719:22)\n' +
+    '    at Socket.emit (events.js:315:20)\n' +
+    '    at addChunk (internal/streams/readable.js:309:12)\n' +
+    '    at readableAddChunk (internal/streams/readable.js:284:9)',
+  exception: true,
+  date: 'Thu Feb 24 2022 00:04:30 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 10060,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65929216,
+      heapTotal: 56270848,
+      heapUsed: 22245288,
+      external: 19885737,
+      arrayBuffers: 18305698
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 702640 },
+  trace: [
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js',
+      function: 'Function.create',
+      line: 59,
+      method: 'create',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js',
+      function: 'toError',
+      line: 130,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js',
+      function: null,
+      line: 258,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js',
+      function: 'handler',
+      line: 961,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js',
+      function: null,
+      line: 352,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js',
+      function: 'handleOperationResult',
+      line: 567,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'MessageStream.messageHandler',
+      line: 308,
+      method: 'messageHandler',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'MessageStream.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 42,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/streams/writable.js',
+      function: 'writeOrBuffer',
+      line: 358,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/streams/writable.js',
+      function: 'MessageStream.Writable.write',
+      line: 303,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'internal/streams/readable.js',
+      function: 'Socket.ondata',
+      line: 719,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'Socket.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/streams/readable.js',
+      function: 'addChunk',
+      line: 309,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'internal/streams/readable.js',
+      function: 'readableAddChunk',
+      line: 284,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: ReferenceError: seller is not defined
+      at validateJob (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\models\Job.js:63:26)
+      at DiskStorage.destination [as getDestination] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\helpers\imagesUploader.js:35:25)
+      at DiskStorage._handleFile (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\multer\storage\disk.js:31:8)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\multer\lib\make-middleware.js:145:17
+      at checkFileType (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\helpers\imagesUploader.js:16:12)
+      at fileFilter (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\helpers\imagesUploader.js:64:7)
+      at wrappedFileFilter (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\multer\index.js:44:7)
+      at Busboy.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\multer\lib\make-middleware.js:115:7)
+      at Busboy.emit (events.js:315:20)
+      at Busboy.emit (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\busboy\lib\main.js:38:33)
+      at PartStream.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\busboy\lib\types\multipart.js:213:13)
+      at PartStream.emit (events.js:315:20)
+      at HeaderParser.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\dicer\lib\Dicer.js:51:16)
+      at HeaderParser.emit (events.js:315:20)
+      at HeaderParser._finish (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\dicer\lib\HeaderParser.js:68:8)
+      at SBMH.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\dicer\lib\HeaderParser.js:40:12),
+  level: 'error',
+  message: 'uncaughtException: seller is not defined\n' +
+    'ReferenceError: seller is not defined\n' +
+    '    at validateJob (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\models\\Job.js:63:26)\n' +
+    '    at DiskStorage.destination [as getDestination] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js:35:25)\n' +
+    '    at DiskStorage._handleFile (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\storage\\disk.js:31:8)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:145:17\n' +
+    '    at checkFileType (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js:16:12)\n' +
+    '    at fileFilter (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js:64:7)\n' +
+    '    at wrappedFileFilter (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n' +
+    '    at Busboy.emit (events.js:315:20)\n' +
+    '    at Busboy.emit (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (events.js:315:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (events.js:315:20)\n' +
+    '    at HeaderParser._finish (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)',
+  stack: 'ReferenceError: seller is not defined\n' +
+    '    at validateJob (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\models\\Job.js:63:26)\n' +
+    '    at DiskStorage.destination [as getDestination] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js:35:25)\n' +
+    '    at DiskStorage._handleFile (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\storage\\disk.js:31:8)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:145:17\n' +
+    '    at checkFileType (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js:16:12)\n' +
+    '    at fileFilter (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js:64:7)\n' +
+    '    at wrappedFileFilter (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n' +
+    '    at Busboy.emit (events.js:315:20)\n' +
+    '    at Busboy.emit (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (events.js:315:20)\n' +
+    '    at HeaderParser.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (events.js:315:20)\n' +
+    '    at HeaderParser._finish (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)',
+  exception: true,
+  date: 'Thu Feb 24 2022 00:21:47 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 3824,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 48734208,
+      heapTotal: 22978560,
+      heapUsed: 21652280,
+      external: 19920035,
+      arrayBuffers: 18340645
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 703676 },
+  trace: [
+    {
+      column: 26,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\models\\Job.js',
+      function: 'validateJob',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js',
+      function: 'DiskStorage.destination [as getDestination]',
+      line: 35,
+      method: 'destination [as getDestination]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\storage\\disk.js',
+      function: 'DiskStorage._handleFile',
+      line: 31,
+      method: '_handleFile',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js',
+      function: null,
+      line: 145,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js',
+      function: 'checkFileType',
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\helpers\\imagesUploader.js',
+      function: 'fileFilter',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\index.js',
+      function: 'wrappedFileFilter',
+      line: 44,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\multer\\lib\\make-middleware.js',
+      function: null,
+      line: 115,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'Busboy.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 33,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\busboy\\lib\\main.js',
+      function: 'Busboy.emit',
+      line: 38,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\busboy\\lib\\types\\multipart.js',
+      function: null,
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'PartStream.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\Dicer.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'events.js',
+      function: 'HeaderParser.emit',
+      line: 315,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\HeaderParser.js',
+      function: 'HeaderParser._finish',
+      line: 68,
+      method: '_finish',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\dicer\\lib\\HeaderParser.js',
+      function: null,
+      line: 40,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: Error: Cannot find module '../../middlewares/async'
+  Require stack:
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\websiteRoutes\authRoutes.js
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js
+  - D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\index.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\websiteRoutes\authRoutes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1103:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\startup\routes.js:16:20)
+      at Module._compile (node:internal/modules/cjs/loader:1103:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../../middlewares/async'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    "Error: Cannot find module '../../middlewares/async'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:16:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  stack: "Error: Cannot find module '../../middlewares/async'\n" +
+    'Require stack:\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js\n' +
+    '- D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js:16:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)',
+  exception: true,
+  date: 'Wed Mar 23 2022 14:03:25 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 15356,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67538944,
+      heapTotal: 39849984,
+      heapUsed: 29754352,
+      external: 25057718,
+      arrayBuffers: 19205545
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 822894 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\authRoutes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1103,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\startup\\routes.js',
+      function: null,
+      line: 16,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1103,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    }
+  ]
+}
+{
+  error: TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'NativeTopology'
+      |     property 's' -> object with constructor 'Object'
+      |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+      --- property 'topology' closes the circle
+      at JSON.stringify (<anonymous>)
+      at stringify (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\response.js:1128:12)
+      at ServerResponse.json (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\response.js:260:14)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\routes\api\websiteRoutes\conversationRoutes.js:24:7
+      at Layer.handle [as handle_request] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\route.js:137:13)
+      at module.exports (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\middlewares\validateId.js:7:5)
+      at Layer.handle [as handle_request] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\layer.js:95:5)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:281:22
+      at param (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:360:14)
+      at param (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:371:14)
+      at Function.process_params (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:416:3)
+      at next (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\express\lib\router\index.js:275:10),
+  level: 'error',
+  message: 'uncaughtException: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeTopology'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'topology' closes the circle\n" +
+    'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeTopology'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'topology' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\response.js:1128:12)\n' +
+    '    at ServerResponse.json (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\response.js:260:14)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\conversationRoutes.js:24:7\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\middlewares\\validateId.js:7:5)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:360:14)\n' +
+    '    at param (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:371:14)\n' +
+    '    at Function.process_params (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:416:3)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:275:10)',
+  stack: 'TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'NativeTopology'\n" +
+    "    |     property 's' -> object with constructor 'Object'\n" +
+    "    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'\n" +
+    "    --- property 'topology' closes the circle\n" +
+    '    at JSON.stringify (<anonymous>)\n' +
+    '    at stringify (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\response.js:1128:12)\n' +
+    '    at ServerResponse.json (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\response.js:260:14)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\conversationRoutes.js:24:7\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at module.exports (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\middlewares\\validateId.js:7:5)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:360:14)\n' +
+    '    at param (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:371:14)\n' +
+    '    at Function.process_params (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:416:3)\n' +
+    '    at next (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js:275:10)',
+  exception: true,
+  date: 'Wed Mar 23 2022 15:31:26 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 984,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69775360,
+      heapTotal: 60035072,
+      heapUsed: 24598080,
+      external: 19249249,
+      arrayBuffers: 18292000
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 828175 },
+  trace: [
+    {
+      column: null,
+      file: null,
+      function: null,
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'JSON.stringify',
+      line: null,
+      method: 'stringify',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\response.js',
+      function: 'stringify',
+      line: 1128,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\response.js',
+      function: 'ServerResponse.json',
+      line: 260,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\routes\\api\\websiteRoutes\\conversationRoutes.js',
+      function: null,
+      line: 24,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\middlewares\\validateId.js',
+      function: 'module.exports',
+      line: 7,
+      method: 'exports',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 360,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 371,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 416,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }
+      at Function.create (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\error.js:59:12)
+      at toError (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\utils.js:130:22)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\operations\common_functions.js:258:39
+      at handler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+      at handleOperationResult (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+      at MessageStream.messageHandler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection.js:308:5)
+      at MessageStream.emit (node:events:526:28)
+      at processIncomingData (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+      at MessageStream._write (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at Socket.ondata (node:internal/streams/readable:754:22)
+      at Socket.emit (node:events:526:28)
+      at addChunk (node:internal/streams/readable:315:12) {
+    driver: true,
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'test@gmail.com' }
+  },
+  level: 'error',
+  message: 'uncaughtException: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (node:events:526:28)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:526:28)\n' +
+    '    at addChunk (node:internal/streams/readable:315:12)',
+  stack: 'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (node:events:526:28)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:526:28)\n' +
+    '    at addChunk (node:internal/streams/readable:315:12)',
+  exception: true,
+  date: 'Sat Apr 02 2022 19:05:02 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 10964,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 70238208,
+      heapTotal: 60297216,
+      heapUsed: 26147240,
+      external: 19259078,
+      arrayBuffers: 18301829
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1704999 },
+  trace: [
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js',
+      function: 'Function.create',
+      line: 59,
+      method: 'create',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js',
+      function: 'toError',
+      line: 130,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js',
+      function: null,
+      line: 258,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js',
+      function: 'handler',
+      line: 961,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js',
+      function: null,
+      line: 352,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js',
+      function: 'handleOperationResult',
+      line: 567,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'MessageStream.messageHandler',
+      line: 308,
+      method: 'messageHandler',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 526,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 42,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 389,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'MessageStream.Writable.write',
+      line: 334,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'Socket.ondata',
+      line: 754,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Socket.emit',
+      line: 526,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'addChunk',
+      line: 315,
+      method: null,
+      native: false
+    }
+  ]
+}
+{
+  error: MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }
+      at Function.create (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\error.js:59:12)
+      at toError (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\utils.js:130:22)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\operations\common_functions.js:258:39
+      at handler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+      at D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+      at handleOperationResult (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+      at MessageStream.messageHandler (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\connection.js:308:5)
+      at MessageStream.emit (node:events:526:28)
+      at processIncomingData (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+      at MessageStream._write (D:\MyWorkSpace\NodeJSWorkSpace\jambu-space\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at Socket.ondata (node:internal/streams/readable:754:22)
+      at Socket.emit (node:events:526:28)
+      at addChunk (node:internal/streams/readable:315:12) {
+    driver: true,
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'test@gmail.com' }
+  },
+  level: 'error',
+  message: 'uncaughtException: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (node:events:526:28)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:526:28)\n' +
+    '    at addChunk (node:internal/streams/readable:315:12)',
+  stack: 'MongoError: E11000 duplicate key error collection: jambu-space.sellers index: email_1 dup key: { email: "test@gmail.com" }\n' +
+    '    at Function.create (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js:59:12)\n' +
+    '    at toError (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js:130:22)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js:258:39\n' +
+    '    at handler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js:961:24)\n' +
+    '    at D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:352:13\n' +
+    '    at handleOperationResult (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js:567:5)\n' +
+    '    at MessageStream.messageHandler (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js:308:5)\n' +
+    '    at MessageStream.emit (node:events:526:28)\n' +
+    '    at processIncomingData (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n' +
+    '    at MessageStream._write (D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at Socket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at Socket.emit (node:events:526:28)\n' +
+    '    at addChunk (node:internal/streams/readable:315:12)',
+  exception: true,
+  date: 'Sat Apr 02 2022 19:06:15 GMT+0500 (Pakistan Standard Time)',
+  process: {
+    pid: 9488,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.2',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\index.js'
+    ],
+    memoryUsage: {
+      rss: 53428224,
+      heapTotal: 26742784,
+      heapUsed: 24770560,
+      external: 19229123,
+      arrayBuffers: 18287098
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1705072 },
+  trace: [
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\error.js',
+      function: 'Function.create',
+      line: 59,
+      method: 'create',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\utils.js',
+      function: 'toError',
+      line: 130,
+      method: null,
+      native: false
+    },
+    {
+      column: 39,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\operations\\common_functions.js',
+      function: null,
+      line: 258,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\topology.js',
+      function: 'handler',
+      line: 961,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js',
+      function: null,
+      line: 352,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\core\\sdam\\server.js',
+      function: 'handleOperationResult',
+      line: 567,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'MessageStream.messageHandler',
+      line: 308,
+      method: 'messageHandler',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 526,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'D:\\MyWorkSpace\\NodeJSWorkSpace\\jambu-space\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 42,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 389,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'MessageStream.Writable.write',
+      line: 334,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'Socket.ondata',
+      line: 754,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Socket.emit',
+      line: 526,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/readable',
+      function: 'addChunk',
+      line: 315,
+      method: null,
+      native: false
+    }
+  ]
+}
