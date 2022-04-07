@@ -95,7 +95,7 @@ function Header({
         {clockicon} {moment(item.createdAt).fromNow()}
       </>
     ),
-    avatar: item?.image.url,
+    avatar: item?.image?.url,
   }));
 
   const menu = (

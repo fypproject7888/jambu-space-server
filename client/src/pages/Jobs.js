@@ -297,7 +297,7 @@ function Jobs() {
         <Avatar.Group>
           <Avatar
             className="shape-avatar"
-            src={API_URL + item?.image.url}
+            src={API_URL + item?.image?.url}
             size={25}
             alt=""
           />
