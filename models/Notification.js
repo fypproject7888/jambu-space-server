@@ -20,7 +20,6 @@ const notificationSchema = new Schema(
         },
         filename: String,
       },
-      required: true,
     },
   },
   { timestamps: true }

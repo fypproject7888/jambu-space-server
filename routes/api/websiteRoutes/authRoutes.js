@@ -18,11 +18,6 @@ const { validateSeller } = require("../../../models/Seller");
 const customerImageUrl = "/media/images/customer/";
 const sellerImageUrl = "/media/images/seller/";
 
-function validateCustomerImageFile(file) {
-  if (!file.image) return "Customer Image is required!";
-  return null;
-}
-
 function validateSellerImageFile(file) {
   if (!file.image) return "Seller Image is required!";
   return null;
@@ -152,11 +147,8 @@ router.post(
 
         const notificationPayload = {
           description: `New Customer (${payload.username}) joined`,
-          image: payload.image,
+          image: payload?.image,
         };
-
-        const error = validateCustomerImageFile(req.files);
-        if (error) return res.status(400).json({ message: error });
 
         const customer = new Customer(payload);
         await customer.save();
@@ -207,11 +199,8 @@ router.post(
 
         const notificationPayload = {
           description: `New Seller (${payload.username}) joined`,
-          image: payload.image,
+          image: payload?.image,
         };
-
-        const error = validateSellerImageFile(req.files);
-        if (error) return res.status(400).json({ message: error });
 
         const seller = new Seller(payload);
         await seller.save();
