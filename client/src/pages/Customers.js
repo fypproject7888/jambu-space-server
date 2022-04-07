@@ -89,7 +89,7 @@ function Customers() {
             className="shape-avatar"
             shape="square"
             size={40}
-            src={API_URL + item.image.url}
+            src={API_URL + item?.image.url}
           ></Avatar>
           <div className="avatar-info">
             <Title level={5}>{item.fullName}</Title>
@@ -101,7 +101,7 @@ function Customers() {
     company: (
       <>
         <div className="author-info">
-          <Title level={5}>{item.company || "-"}</Title>
+          <Title level={5}>{item?.company || "-"}</Title>
         </div>
       </>
     ),
