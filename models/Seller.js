@@ -41,6 +41,8 @@ const sellerSchema = new Schema({
     },
   },
   company: String,
+  resume: String,
+  skills: Array,
   rating: Number,
   earnings: Number,
   jobs: Array,

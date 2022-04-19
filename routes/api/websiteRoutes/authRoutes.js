@@ -304,4 +304,34 @@ router.put(
   })
 );
 
+router.post(
+  "/seller/skills/add",
+  asyncMiddleware(async (req, res) => {
+    const sellerID = req.body.sellerID;
+    if (sellerID) {
+      const targetSeller = await Seller.findByIdAndUpdate(sellerID, {
+        $push: { skills: req.body.skill },
+      });
+      res.json(targetSeller);
+    } else {
+      res.json("Seller ID Not Found");
+    }
+  })
+);
+
+router.post(
+  "/seller/resume/add",
+  asyncMiddleware(async (req, res) => {
+    const sellerID = req.body.sellerID;
+    if (sellerID) {
+      const targetSeller = await Seller.findByIdAndUpdate(sellerID, {
+        resume: req.body.resume,
+      });
+      res.json(targetSeller);
+    } else {
+      res.json("Seller ID Not Found");
+    }
+  })
+);
+
 module.exports = router;
